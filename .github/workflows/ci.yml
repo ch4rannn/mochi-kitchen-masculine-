@@ -24,11 +24,3 @@ jobs:
         run: npm run test:coverage
         env:
           NODE_ENV: test
-
-  # Auto-deploy is left to you: add your host's deploy step here, gated on the test job and on pushes to main.
-  deploy-placeholder:
-    needs: test
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Tests passed on main. Add your deploy command here (for example Render or Railway deploy hook)."

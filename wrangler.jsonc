@@ -23,7 +23,7 @@
     {
       "binding": "DB",
       "database_name": "mochi-kitchen",
-      "database_id": "84eb2f27-3ad8-4962-80cf-1709bdbfe30f",
+      "database_id": "YOUR_D1_DATABASE_ID",
       "migrations_dir": "worker/migrations"
     }
   ],
